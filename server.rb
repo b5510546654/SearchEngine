@@ -13,7 +13,7 @@ def find_matches(line)
     return JSON.parse(cached_data)
   end
 
-  output = `pig -x local -param "line='#{line}'" search.pig`
+  output = `export JAVA_HOME=/usr/lib/jvm/java-7-oracle && pig -param "line='#{line}'" -x mapreduce search.pig`
 
   links = []
   output.each_line {|line|
