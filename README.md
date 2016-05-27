@@ -15,13 +15,13 @@
 
 # Dependencies
 
-Install Pig Latin using Homebrew
+###Install Pig Latin using Homebrew
 `$ brew install pig`
 
-##Install Redis using Homebrew
+###Install Redis using Homebrew
 `$ brew install redis`
 
-##Install Ruby Gem Dependencies
+###Install Ruby Gem Dependencies
 `$ gem install sinatra`
 
 `$ gem install redis`
