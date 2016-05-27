@@ -31,3 +31,6 @@
 `$ gem install colorize`
 
 `$ gem install awesome_print`
+
+###Document 
+https://docs.google.com/document/d/1u-u2-rfKqIXCgK-UnxO1gWR3Ax4aBvOce5wtWqd0dxU/edit?usp=sharing
